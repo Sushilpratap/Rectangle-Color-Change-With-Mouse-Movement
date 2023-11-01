@@ -30,5 +30,7 @@ box.addEventListener("mousemove",(event)=>{
     }
 });
 box.addEventListener("mouseleave",()=>{
-    box.style.backgroundColor='white';
+   // box.style.backgroundColor='white';
+    gsap.to(box,{
+       backgroundColor:"white"
 })
